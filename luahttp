@@ -1,0 +1,5 @@
+#!/usr/bin/env lua
+
+local http = require("socket.http")
+local response = http.request("http://www.google.com/")
+print (response)
